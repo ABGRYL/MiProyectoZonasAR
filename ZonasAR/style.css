@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #12cc88;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #12cc88;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+/* Estilo para la sección de Inicio */
+section:first-child {
+    margin-top: 0;
+}
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido en la sección */
+}
+
+section h2 {
+    color: #12cc88;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Estilo para las imágenes */
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block; /* Para centrar horizontalmente la imagen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton {
+    background-color: #12cc88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #12cc88;
+}
+
+
+
